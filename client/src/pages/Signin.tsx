@@ -10,6 +10,7 @@ const Signin = () => {
     email: "",
     name: "",
     location: "",
+    number: "",
   };
   const redirect = useNavigate();
   const [state, setState] = useState<Driver>(initialState);

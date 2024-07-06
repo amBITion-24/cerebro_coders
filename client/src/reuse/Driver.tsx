@@ -7,7 +7,7 @@ const Driver = ({
   name: string;
   place: string;
   email: string;
-  phone: Number;
+  phone: string;
 }) => {
   return (
     <div className="flex bg-base-200 my-6 mx-7 p-4 rounded-md">
@@ -34,7 +34,7 @@ const Driver = ({
           <div className="text-xl">available driver {name}</div>
           <div className="text-xl">in {place}</div>
           <div className="text-xl">contact : {email}</div>
-          <div className="text-xl">contact : {phone.toString()}</div>
+          {phone}
         </div>
       </div>
     </div>
