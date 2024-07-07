@@ -1,4 +1,4 @@
 const DriverList = () => {
-  return <div>DriverList</div>;
+  return <div></div>;
 };
 export default DriverList;
